@@ -1,0 +1,17 @@
+<body><p>
+The POCO F1 sports Qualcomm flagship Snapdragon 845 processor, an octa-core CPU with a maximum clock speed of 2.8 GHz which is supported by 6 GB of LPDDR4X RAM. ... It is for a reason that this new Xiaomi addition is labelled the 'Master of Speed'.
+</p>
+Like it ?  <button type="button" class="btn btn-primary" (click)="openModal(template)">Add to cart</button>
+ 
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Your cart</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Poco added to cart successfully !
+  </div>
+</ng-template>
+</body>

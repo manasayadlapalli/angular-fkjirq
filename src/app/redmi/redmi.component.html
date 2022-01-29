@@ -1,0 +1,17 @@
+<body><p>
+The Redmi Note 7 features a 2.2 GHz Qualcomm Snapdragon 660 AIE octa-core processor and 4 GB of RAM which pave the way for seamless gaming or multitasking. ... Enjoy watching videos and playing games on the Redmi Note 7's 16-cm (6.3) FHD+ Dot Notch Display which comes with an aspect ratio of 19.5:9.
+</p>
+Like it ?  <button type="button" class="btn btn-primary" (click)="openModal(template)">Add to cart</button>
+ 
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Your cart</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+   Redmi added to cart successfully !
+  </div>
+</ng-template>
+</body>

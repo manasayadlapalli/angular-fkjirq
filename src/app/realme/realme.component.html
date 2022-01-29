@@ -1,0 +1,17 @@
+<body><p>
+Realme X is the company's first phone without a notch. It has a 6.53-inch AMOLED display (2340 x 1080 pixels) with 19.5:9 aspect ratio and 91.2% screen-to-body ratio. It has an in-display fingerprint sensor. ... The phone has a PPI of 395 which makes the content sharper and provides a crisp visual experience.
+</p>
+Like it? <button type="button" class="btn btn-primary" (click)="openModal(template)">Add to cart</button>
+ 
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Your cart</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Realme added to cart successfully !
+  </div>
+</ng-template>
+</body>

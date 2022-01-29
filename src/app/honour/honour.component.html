@@ -1,0 +1,17 @@
+<body><p>
+One of its biggest highlights is its dual 12-megapixel rear cameras. Honor has used one RGB sensor and one monochrome sensor to deliver sharper, more detailed photos. Powering the Honor 8 Pro is Huawei's top-of-the-line Kirin 960 processor, plus 6GB of RAM and 128GB of storage which is expandable using a microSD card.
+</p>
+Like it ?  <button type="button" class="btn btn-primary" (click)="openModal(template)">Add to cart</button>
+ 
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Your cart</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Honour added to cart successfully !
+  </div>
+</ng-template>
+</body>

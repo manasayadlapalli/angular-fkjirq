@@ -1,0 +1,17 @@
+<body><p>
+OnePlus 7 Pro. The 6.67 inch Fluid AMOLED display on the OnePlus 7 Pro is our most advanced screen ever. Experience unrivalled smoothness and clarity with a 90 Hz refresh rate and QHD+ resolution. Experience a high-resolution display with a 90 Hz refresh rate, designed to display your content with dramatic clarity.
+</p>
+Like it ?<button type="button" class="btn btn-primary" (click)="openModal(template)">Add to cart</button>
+ 
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Your Cart</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    Oneplus added to cart successfully !
+  </div>
+</ng-template>
+</body>
